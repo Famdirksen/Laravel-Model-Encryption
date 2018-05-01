@@ -7,7 +7,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Capsule\Manager as Capsule;
 
 /**
- * Class Migrate
+ * Class Migrate.
  *
  * Creates the 'encryptable_models' table
  * used for integration testing.
@@ -15,7 +15,6 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 class Migrate extends Migration
 {
     protected $connection = 'default';
-
 
     /**
      * Run the migrations.
@@ -30,7 +29,6 @@ class Migrate extends Migration
             $table->timestamps();
         });
     }
-
 
     /**
      * Reverse the migrations.

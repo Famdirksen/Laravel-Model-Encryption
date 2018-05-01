@@ -3,13 +3,10 @@
 namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use Tests\Framework\CustomEncryptionStub;
-use Tests\Framework\EncryptableStub;
 use Tests\Framework\ModelEncryptionStub;
 
 class EncryptableUnitTest extends TestCase
 {
-
     /** @test */
     public function it_can_determine_if_a_property_is_encrypted()
     {
