@@ -4,7 +4,8 @@ namespace Tests\Framework;
 
 use Famdirksen\LaravelModelEncryption\ModelEncryption;
 
-class ModelEncryptionStub {
+class ModelEncryptionStub
+{
     use ModelEncryption;
 
     protected $encryptable = [
