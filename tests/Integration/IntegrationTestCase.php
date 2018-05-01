@@ -2,9 +2,9 @@
 
 namespace Tests\Integration;
 
-use Illuminate\Database\Capsule\Manager as Capsule;
-use PHPUnit\Framework\TestCase;
 use Tests\Framework\Migrate;
+use PHPUnit\Framework\TestCase;
+use Illuminate\Database\Capsule\Manager as Capsule;
 
 abstract class IntegrationTestCase extends TestCase
 {
@@ -12,7 +12,6 @@ abstract class IntegrationTestCase extends TestCase
      * @var Illuminate\Database\Capsule\Manager
      */
     protected $db;
-
 
     /**
      * Create a DB connection, migrate.
@@ -23,7 +22,6 @@ abstract class IntegrationTestCase extends TestCase
         ( new Migrate )->up();
     }
 
-
     /**
      * Reverse migrations, clear DB connection.
      */
@@ -32,7 +30,6 @@ abstract class IntegrationTestCase extends TestCase
         ( new Migrate )->down();
         $this->db = null;
     }
-
 
     /**
      * Maybe create a new DB instance, set up the

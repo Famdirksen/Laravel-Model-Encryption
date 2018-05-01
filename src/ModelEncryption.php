@@ -2,8 +2,6 @@
 
 namespace Famdirksen\LaravelModelEncryption;
 
-use Illuminate\Support\Facades\Crypt;
-
 trait ModelEncryption
 {
     /**
@@ -15,6 +13,7 @@ trait ModelEncryption
     {
         return in_array($key, $this->encryptable);
     }
+
     /**
      * Decrypt a value.
      *
@@ -30,6 +29,7 @@ trait ModelEncryption
 
         return $value;
     }
+
     /**
      * Encrypt a value.
      *
@@ -45,6 +45,7 @@ trait ModelEncryption
 
         return $value;
     }
+
     /**
      * Extend the Eloquent method so properties present in
      * $encrypt are decrypted when directly accessed.
@@ -63,6 +64,7 @@ trait ModelEncryption
 
         return $value;
     }
+
     /**
      * Extend the Eloquent method so properties present in
      * $encrypt are encrypted whenever they are set.
@@ -80,6 +82,7 @@ trait ModelEncryption
 
         return parent::setAttribute($key, $value);
     }
+
     /**
      * Extend the Eloquent method so properties in
      * $encrypt are decrypted when toArray()
