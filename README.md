@@ -52,17 +52,17 @@ If you discover any security related issues, please email info@famdirksen.nl ins
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/famdirksen/digicp.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/famdirksen/Laravel-Model-Encryption.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/famdirksen/digicp/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/famdirksen/digicp.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/famdirksen/digicp.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/famdirksen/digicp.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/famdirksen/Laravel-Model-Encryption/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/famdirksen/Laravel-Model-Encryption.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/famdirksen/Laravel-Model-Encryption.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/famdirksen/Laravel-Model-Encryption.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/famdirksen/digicp
-[link-travis]: https://travis-ci.org/famdirksen/digicp
-[link-scrutinizer]: https://scrutinizer-ci.com/g/famdirksen/digicp/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/famdirksen/digicp
-[link-downloads]: https://packagist.org/packages/famdirksen/digicp
+[link-packagist]: https://packagist.org/packages/famdirksen/Laravel-Model-Encryption
+[link-travis]: https://travis-ci.org/famdirksen/Laravel-Model-Encryption
+[link-scrutinizer]: https://scrutinizer-ci.com/g/famdirksen/Laravel-Model-Encryption/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/famdirksen/Laravel-Model-Encryption
+[link-downloads]: https://packagist.org/packages/famdirksen/Laravel-Model-Encryption
 [link-author]: https://github.com/famdirksen
 [link-contributors]: ../../contributors
