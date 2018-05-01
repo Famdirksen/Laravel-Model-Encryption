@@ -2,23 +2,22 @@
 
 namespace Tests\Framework;
 
-use Famdirksen\LaravelModelEncryption\ModelEncryption;
 use Illuminate\Database\Eloquent\Model;
+use Famdirksen\LaravelModelEncryption\ModelEncryption;
 
 class CustomEncryptionModel extends Model
 {
     use ModelEncryption;
 
     protected $encryptable = [
-        'secret'
+        'secret',
     ];
 
     protected $fillable = [
-        'secret'
+        'secret',
     ];
 
     protected $table = 'encryptable_models';
-
 
     /**
      * @param $value
@@ -27,9 +26,8 @@ class CustomEncryptionModel extends Model
      */
     protected function encryptAttribute($value)
     {
-        return "encrypted";
+        return 'encrypted';
     }
-
 
     /**
      * @param $value
@@ -38,6 +36,6 @@ class CustomEncryptionModel extends Model
      */
     protected function decryptAttribute($value)
     {
-        return "decrypted";
+        return 'decrypted';
     }
 }

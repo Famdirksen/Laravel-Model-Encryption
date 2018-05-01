@@ -9,6 +9,6 @@ class ModelEncryptionStub
     use ModelEncryption;
 
     protected $encryptable = [
-        'secret'
+        'secret',
     ];
 }

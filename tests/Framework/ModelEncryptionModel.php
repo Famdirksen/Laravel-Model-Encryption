@@ -2,18 +2,18 @@
 
 namespace Tests\Framework;
 
-use Famdirksen\LaravelModelEncryption\ModelEncryption;
 use Illuminate\Database\Eloquent\Model;
+use Famdirksen\LaravelModelEncryption\ModelEncryption;
 
 class ModelEncryptionModel extends Model
 {
     use ModelEncryption;
 
     protected $fillable = [
-        'secret'
+        'secret',
     ];
 
     protected $encryptable = [
-        'secret'
+        'secret',
     ];
 }
