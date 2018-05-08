@@ -2,7 +2,7 @@
 
 namespace Famdirksen\LaravelModelEncryption;
 
-trait ModelEncryption
+trait GDPRRegistration
 {
     /**
      * @param $key

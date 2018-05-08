@@ -4,7 +4,7 @@ namespace Famdirksen\LaravelModelEncryption;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelModelEncryptionServiceProvider extends ServiceProvider
+class LaravelGDPRRegistrationServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
