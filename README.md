@@ -21,7 +21,46 @@ $ composer require famdirksen/laravel-model-encryption
 
 ## Usage
 
+To use this package in your own project, you need to add the `trait` to the model. In the following example we installed Larave 5.6 and ran `php artisan make:auth` to setup authentication.
+
+You need to use the trait, `ModelEncryption` and add the `protected $encryptable` property to your User class, this way you'll enable model encryption on your user data.
+
+app/User.php:
 ``` php
+<?php
+
+namespace App;
+
+use Famdirksen\LaravelModelEncryption\ModelEncryption;
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+
+class User extends Authenticatable
+{
+    use Notifiable, ModelEncryption;
+
+    protected $encryptable = [
+        'name',
+    ];
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'name', 'email', 'password',
+    ];
+
+    /**
+     * The attributes that should be hidden for arrays.
+     *
+     * @var array
+     */
+    protected $hidden = [
+        'password', 'remember_token',
+    ];
+}
 
 ```
 
