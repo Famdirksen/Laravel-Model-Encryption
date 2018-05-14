@@ -11,7 +11,7 @@ trait ModelEncryption
      */
     public function isEncryptable($key)
     {
-        if(!isset($this->encryptable)) {
+        if (! isset($this->encryptable)) {
             return false;
         }
 
