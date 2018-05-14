@@ -5,7 +5,7 @@ namespace Tests\Integration;
 use Tests\Framework\ModelEncryptionModel;
 use Tests\Framework\CustomEncryptionModel;
 
-class EncryptableIntegrationTest extends IntegrationTestCase
+class EncryptableGDPRTest extends GDPRTestCase
 {
     /** @test */
     public function it_should_encrypt_properties_listed_in_the_encryptable_array_when_persisting_data()

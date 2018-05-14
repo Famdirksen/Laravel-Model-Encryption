@@ -54,7 +54,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [ico-version]: https://img.shields.io/packagist/v/famdirksen/Laravel-Model-Encryption.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/famdirksen/Laravel-Model-Encryption/master.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/Famdirksen/Laravel-Model-Encryption/master.svg?style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/famdirksen/Laravel-Model-Encryption.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/famdirksen/Laravel-Model-Encryption.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/famdirksen/Laravel-Model-Encryption.svg?style=flat-square
